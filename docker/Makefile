@@ -3,7 +3,7 @@ PKG_AUTHOR		:= Christopher Schmitt <chris.schmitt@mandiant.com>
 HASHCAT_VERSION	:= v3.6.0
 
 GOCRACK_PROJ		:= github.com/fireeye/gocrack
-GOCRACK_CODE_LOCAL	:= ${GOPATH}/src/$(GOCRACK_PROJ)
+GOCRACK_CODE_LOCAL	:= $(CURDIR)/..
 EXTERNAL_DIR		:= $(CURDIR)/external
 HASHCAT_DIR			:= $(EXTERNAL_DIR)/hashcat
 DIST_DIR			:= $(CURDIR)/dist
